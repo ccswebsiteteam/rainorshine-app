@@ -1,0 +1,41 @@
+.mdl-data-table td, .mdl-data-table th {
+	text-align: left;
+	height: initial;
+}
+.mdl-data-table th {
+	vertical-align: middle;
+}
+.mdl-data-table th:last-child, .mdl-data-table td:last-child {
+	text-align: center;
+}
+.mdl-data-table td, table.dataTable tbody td {
+	padding-left: 18px;
+}
+.mdl-data-table td {
+	cursor: default;
+}
+
+.dataTables_wrapper .dataTables_info {
+	color: #9e9e9e;
+}
+
+select {
+	display: inline-block !important;
+	width: initial;
+	height: initial;
+	padding: 2px;
+	border-radius: initial; 
+	border: 2px inset;
+}
+
+input[type="search"] {
+	border: 2px inset;
+	width: initial;
+	height: initial;
+	font-size: 1em;
+	padding: 2px;
+}
+
+label {
+	font-size: 14px;
+}
